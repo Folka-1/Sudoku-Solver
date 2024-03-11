@@ -91,10 +91,10 @@ int main() {
 		{
 			for(int j = 0; j < 9; j++)
 			{
-				cout << board[i][j];
+				cout << board[i][j] << " ";
                 if(j == 2 || j == 5)
                 {
-                    cout << " ";
+                    cout << "  ";
                 }
 			}
 			cout << endl;
